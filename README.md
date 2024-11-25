@@ -43,6 +43,18 @@ To request features or report issues with the plugin, please use the [GitHub iss
 
 You can find more resources and support options in the official documentation for [Google Play Asset Delivery](https://developer.android.com/guide/playcore/asset-delivery).
 
+## Known issues
+### Play Asset Delivery support built into Unity
+
+Recent versions of Unity, such as 2019.4.29, 2020.3.15, and 2021.1.15 (or later), include
+[built-in support](https://docs.unity3d.com/Manual/play-asset-delivery.html)
+for [Play Asset Delivery (PAD)](https://developer.android.com/guide/playcore/asset-delivery). These Unity versions allow
+developers to specify asset packs by placing assets in .androidpack folders within their project. These versions also
+change the "Split Application Binary" option to use asset packs instead of OBBs.
+
+The build method used by the Google Play Plugins for Unity is incompatible with these features and will ignore assets placed
+in the .androidpack folders.
+
 ## Data Collection
 
 When you upload a game using this plugin to Google Play, Google collects the following data to help improve our products and services:
