@@ -1,5 +1,8 @@
 # Changelog for com.google.play.assetdelivery
 
+## [1.9.3] - 2025-01-07
+- Updated Play Asset Delivery dependency to 2.3.0.
+
 ## [1.9.2] - 2024-09-18
 - Added new dependency on Google Play Android App Bundle.
 - Updated Play Common dependency to 1.9.2.

@@ -2,7 +2,7 @@
   "name": "com.google.play.assetdelivery",
   "displayName": "Google Play Asset Delivery",
   "description": "Play Asset Delivery enables AssetBundles and other assets to be packaged into an Android App Bundle and delivered through Google Play.",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "unity": "2018.4",
   "author": {
     "name": "Google LLC"
