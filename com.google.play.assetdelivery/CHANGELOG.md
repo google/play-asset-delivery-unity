@@ -1,5 +1,8 @@
 # Changelog for com.google.play.assetdelivery
 
+## [1.9.4] - 2025-02-05
+- Updated Play Core dependency to 1.8.6.
+
 ## [1.9.3] - 2025-01-07
 - Updated Play Asset Delivery dependency to 2.3.0.
 
